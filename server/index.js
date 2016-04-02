@@ -4,8 +4,8 @@ var app = express();
 var path = require('path');
 
 
-app.use(express.static('client'));
 app.use(express.static('node_modules'));
+app.use(express.static('client'));
 
 app.use('/*', function(req, res) {
 	res.sendFile(path.join(__dirname, './views/index.html'));

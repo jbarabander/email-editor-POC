@@ -4,12 +4,12 @@
 		return {
 			restrict: 'E',
 			template: './handlebarsPreview/tpl.html',
-			controller: HandlebarsPreviewController
+			controller: HandlebarsPreviewController,
 			controllerAs: 'HandlebarsPreviewController'
 		}
 	})
 
 	function HandlebarsPreviewController() {
-		
+
 	}
 })()
