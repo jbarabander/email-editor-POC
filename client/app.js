@@ -1,3 +1,3 @@
 (function() {
-	angular.module('handlebars-textangular', ['textangular'])
+	angular.module('handlebarsTextangular', ['textangular', 'ui.ace']);
 })();

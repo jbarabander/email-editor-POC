@@ -10,9 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ace": "0.0.2",
+    "ace-builds": "^1.2.2",
     "angular": "^1.5.3",
+    "angular-ui-ace": "^0.2.3",
+    "bootstrap": "^3.3.6",
     "express": "^4.13.4",
     "handlebars": "^4.0.5",
+    "jquery": "^2.2.2",
     "textangular": "^1.5.0"
   }
 }

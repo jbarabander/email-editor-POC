@@ -1,5 +1,5 @@
 (function() {
-	angular.module('handlebars-textangular')
+	angular.module('handlebarsTextangular')
 	.directive('handlebarsPreview', function() {
 		return {
 			restrict: 'E',
@@ -10,6 +10,6 @@
 	})
 
 	function HandlebarsPreviewController() {
-
+		
 	}
 })()
