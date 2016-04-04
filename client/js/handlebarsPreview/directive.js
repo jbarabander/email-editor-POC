@@ -19,13 +19,13 @@
 			try {
 				parsedContext = JSON.parse(vm.context);
 			} catch(err) {
-
+				return "There was an error with the context passed to the template";
 			}
 			try {
 				vm.compiledTemplate = Handlebars.compile(vm.emailHtml)(parsedContext);
 				return vm.compiledTemplate;
 			} catch(err) {
-				return;
+				return '';
 			}
 		}
 	}
