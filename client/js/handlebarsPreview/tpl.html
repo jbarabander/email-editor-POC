@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="flex-container">
+            <div class="half-container">
+                <text-angular ng-model="HandlebarsPreviewController.emailHtml"></text-angular>
+                <!-- <button class="btn btn-primary" ng-click="HandlebarsPreviewController.compileTemplate()">Update Template</button> -->
+            </div>
+            <div class="preview-container half-container">
+                <h1>Preview</h1>
+
+                <div class="preview-box" ng-bind-html="HandlebarsPreviewController.compileTemplate()"></div>
+                <!-- <div ng-bind-html="HandlebarsPreviewController.compiledTemplate"></div> -->
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="editor-container form-group">
+            <div ui-ace="{
+      useWrapMode : true,
+      mode: 'json'
+    }" class="form-control" ng-model="HandlebarsPreviewController.context"></div>
+        </div>
+    </div>
+</div>

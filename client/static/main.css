@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.half-container {
+	padding: 20px;
+    width: 50%;
+}
+
+.preview-container {
+	border-left: 1px solid lightgrey;
+	/*margin-top: 50px;*/
+}
+
+.ta-bind {
+	overflow: auto;
+	height: 300px !important;
+}
+
+.preview-box {
+	border: 1px solid lightgrey;
+	border-radius: 4px;
+	height: 300px;
+	overflow: auto;
+}
+
+.ace_editor {
+	height: 200px;
+	border: 1px solid lightgrey;
+	margin-bottom: 10px;
+}
+
+.editor-container {
+	padding: 10px 40px;
+}
+/*.preview-container {
+}*/
